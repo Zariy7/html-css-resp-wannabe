@@ -138,16 +138,6 @@ img {
         flex-wrap: wrap;
     }
 
-    /* .lessons .col img {
-        height: 250px;
-        margin-bottom: 1rem;
-    }
-
-    .steps .col img {
-        height: 250px;
-        margin-bottom: 1rem;
-    } */
-
     .lessons .col {
         width: calc(100% - 20px);
     }
@@ -171,6 +161,7 @@ img {
     .why-us {
         background-color: rgb(13, 16, 34);
         padding-top: 2.5rem;
+        margin-bottom: 0;
     }
 
     .steps{
