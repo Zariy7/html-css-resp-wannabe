@@ -138,7 +138,7 @@ img {
         flex-wrap: wrap;
     }
 
-    .lessons .col img {
+    /* .lessons .col img {
         height: 250px;
         margin-bottom: 1rem;
     }
@@ -146,7 +146,7 @@ img {
     .steps .col img {
         height: 250px;
         margin-bottom: 1rem;
-    }
+    } */
 
     .lessons .col {
         width: calc(100% - 20px);
@@ -183,5 +183,38 @@ img {
         width: 720px;
         margin: 0 auto;
         padding: 0 5px;
+    }
+ }
+
+ @media screen and (min-width: 769px) and (max-width: 1160px) {
+    .container {
+        max-width: 720px;
+        margin: 0 auto;
+        padding: 0 5px;
+    }
+
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .lessons .col {
+        width: calc(100% - 20px);
+    }
+
+    .steps .col {
+        width: calc(100% - 20px);
+    }
+
+    .col{
+        padding-bottom: 50px;
+    }
+
+    .why-us .col-left {
+        width: 100%;
+    }
+    
+    .why-us .col-right {
+        width: 100%;
     }
  }  
